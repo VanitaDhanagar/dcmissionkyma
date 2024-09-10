@@ -6,8 +6,10 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@cap-js/attachments": "^1.1.6",
+    "@cap-js/audit-logging": "^0.8.0",
     "@cap-js/change-tracking": "^1.0.7",
-    "@sap/cds": "^7",
+    "@sap/cds": "^8",
     "@sap/cds-hana": "^2",
     "@sap/xssec": "^3",
     "express": "^4"
@@ -44,7 +46,8 @@
             },
             "alice": {
               "roles": [
-                "support"
+                "support",
+                "admin"
               ]
             },
             "bob": {
